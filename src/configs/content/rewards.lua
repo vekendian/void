@@ -57,7 +57,6 @@ return [[
                     "bandaged_premium",
                     "beach",
                     "beast",
-                    "betatestdummy",
                     "biker",
                     "bikergirl",
                     "billybob",
@@ -213,7 +212,6 @@ return [[
                     "pigsy",
                     "pinata2025_premium",
                     "pirate",
-                    "pitcrew",
                     "pixel",
                     "police",
                     "prisoner",
@@ -2437,15 +2435,15 @@ return [[
                     },
                     {
                         "vehicleId": "stock",
-                        "paintId": "stock_abstract_epic"
-                    },
-                    {
-                        "vehicleId": "stock",
                         "paintId": "stock_6-7_premium"
                     },
                     {
                         "vehicleId": "stock",
                         "paintId": "stock_drak_premium"
+                    },
+                    {
+                        "vehicleId": "stock",
+                        "paintId": "stock_flame_mythic"
                     },
                     {
                         "vehicleId": "stock",
@@ -4410,6 +4408,11 @@ return [[
                     {
                         "partId": "wheel",
                         "variantId": "stock_tire-drak_premium",
+                        "vehicleId": "stock"
+                    },
+                    {
+                        "partId": "wheel",
+                        "variantId": "stock_tire-flame_mythic",
                         "vehicleId": "stock"
                     },
                     {
@@ -7608,7 +7611,6 @@ return [[
                     "bandaged_premium",
                     "beach",
                     "beast",
-                    "betatestdummy",
                     "biker",
                     "bikergirl",
                     "billybob",
@@ -7764,7 +7766,6 @@ return [[
                     "pigsy",
                     "pinata2025_premium",
                     "pirate",
-                    "pitcrew",
                     "pixel",
                     "police",
                     "prisoner",
@@ -7836,6 +7837,20 @@ return [[
                     "zarek_premium",
                     "zephyr_premium",
                     "zombie"
+                ]
+            },
+            "maxCollectAmount": -1
+        },
+        {
+            "rewardCondition": {
+                "criteria": 0,
+                "type": "score"
+            },
+            "lootDefinition": {
+                "id": "event_reward_special_skins",
+                "unlockDriverAssets": [
+                    "betatestdummy",
+                    "pitcrew"
                 ]
             },
             "maxCollectAmount": -1
@@ -10008,15 +10023,15 @@ return [[
                     },
                     {
                         "vehicleId": "stock",
-                        "paintId": "stock_abstract_epic"
-                    },
-                    {
-                        "vehicleId": "stock",
                         "paintId": "stock_6-7_premium"
                     },
                     {
                         "vehicleId": "stock",
                         "paintId": "stock_drak_premium"
+                    },
+                    {
+                        "vehicleId": "stock",
+                        "paintId": "stock_flame_mythic"
                     },
                     {
                         "vehicleId": "stock",
@@ -11981,6 +11996,11 @@ return [[
                     {
                         "partId": "wheel",
                         "variantId": "stock_tire-drak_premium",
+                        "vehicleId": "stock"
+                    },
+                    {
+                        "partId": "wheel",
+                        "variantId": "stock_tire-flame_mythic",
                         "vehicleId": "stock"
                     },
                     {
@@ -17933,8 +17953,41 @@ return [[
                 "type": "score"
             },
             "lootDefinition": {
-                "id": "event_reward_coins",
+                "id": "event_reward_coins_100K",
+                "coinAmount": 100000
+            },
+            "maxCollectAmount": -1
+        },
+        {
+            "rewardCondition": {
+                "criteria": 0,
+                "type": "score"
+            },
+            "lootDefinition": {
+                "id": "event_reward_coins_1M",
+                "coinAmount": 1000000
+            },
+            "maxCollectAmount": -1
+        },
+        {
+            "rewardCondition": {
+                "criteria": 0,
+                "type": "score"
+            },
+            "lootDefinition": {
+                "id": "event_reward_coins_100M",
                 "coinAmount": 100000000
+            },
+            "maxCollectAmount": -1
+        },
+        {
+            "rewardCondition": {
+                "criteria": 0,
+                "type": "score"
+            },
+            "lootDefinition": {
+                "id": "event_reward_gems_1K",
+                "gemAmount": 1000
             },
             "maxCollectAmount": -1
         },
@@ -17946,6 +17999,17 @@ return [[
             "lootDefinition": {
                 "id": "event_reward_gems",
                 "gemAmount": 15000
+            },
+            "maxCollectAmount": -1
+        },
+        {
+            "rewardCondition": {
+                "criteria": 0,
+                "type": "score"
+            },
+            "lootDefinition": {
+                "id": "event_reward_gems_100M",
+                "gemAmount": 100000000
             },
             "maxCollectAmount": -1
         },
