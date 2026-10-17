@@ -2511,6 +2511,10 @@ return [[
                     },
                     {
                         "vehicleId": "rocketkart",
+                        "paintId": "rocketkart_angler_premium"
+                    },
+                    {
+                        "vehicleId": "rocketkart",
                         "paintId": "VIP"
                     }
                 ],
@@ -4443,6 +4447,11 @@ return [[
                     {
                         "partId": "wheel",
                         "variantId": "rocketkart_tire-synth_epic",
+                        "vehicleId": "rocketkart"
+                    },
+                    {
+                        "partId": "wheel",
+                        "variantId": "rocketkart_tire-angler_premium",
                         "vehicleId": "rocketkart"
                     },
                     {
@@ -10099,6 +10108,10 @@ return [[
                     },
                     {
                         "vehicleId": "rocketkart",
+                        "paintId": "rocketkart_angler_premium"
+                    },
+                    {
+                        "vehicleId": "rocketkart",
                         "paintId": "VIP"
                     }
                 ],
@@ -12031,6 +12044,11 @@ return [[
                     {
                         "partId": "wheel",
                         "variantId": "rocketkart_tire-synth_epic",
+                        "vehicleId": "rocketkart"
+                    },
+                    {
+                        "partId": "wheel",
+                        "variantId": "rocketkart_tire-angler_premium",
                         "vehicleId": "rocketkart"
                     },
                     {
