@@ -60,6 +60,7 @@ return [[
                     "biker",
                     "bikergirl",
                     "billybob",
+                    "blacksmith_epic",
                     "bling",
                     "bobsledder",
                     "bomber-aqua_premium",
@@ -144,6 +145,7 @@ return [[
                     "grinch",
                     "halloween",
                     "halloween2024_premium",
+                    "halloween_26_premium",
                     "handyman",
                     "hansel",
                     "hazardeer_premium",
@@ -203,6 +205,7 @@ return [[
                     "nitrox_premium",
                     "officer",
                     "oldbard",
+                    "oldbill_premium",
                     "oldie",
                     "overspill",
                     "patchwork",
@@ -2315,6 +2318,10 @@ return [[
                     },
                     {
                         "vehicleId": "atv",
+                        "paintId": "atv_halloween25_mythic"
+                    },
+                    {
+                        "vehicleId": "atv",
                         "paintId": "VIP"
                     },
                     {
@@ -2376,6 +2383,10 @@ return [[
                     {
                         "vehicleId": "super_offroad",
                         "paintId": "super_offroad_tactical_green_premium"
+                    },
+                    {
+                        "vehicleId": "super_offroad",
+                        "paintId": "super_offroad_halloween2026_premium"
                     },
                     {
                         "vehicleId": "super_offroad",
@@ -4331,6 +4342,11 @@ return [[
                     },
                     {
                         "partId": "wheel",
+                        "variantId": "atv_tire-oldbill_premium",
+                        "vehicleId": "atv"
+                    },
+                    {
+                        "partId": "wheel",
                         "variantId": "atv_tire-VIP",
                         "vehicleId": "atv"
                     },
@@ -4372,6 +4388,11 @@ return [[
                     {
                         "partId": "wheel",
                         "variantId": "super_offroad_tire-tactical_green_premium",
+                        "vehicleId": "super_offroad"
+                    },
+                    {
+                        "partId": "wheel",
+                        "variantId": "super_offroad_halloween2026_premium",
                         "vehicleId": "super_offroad"
                     },
                     {
@@ -7623,6 +7644,7 @@ return [[
                     "biker",
                     "bikergirl",
                     "billybob",
+                    "blacksmith_epic",
                     "bling",
                     "bobsledder",
                     "bomber-aqua_premium",
@@ -7707,6 +7729,7 @@ return [[
                     "grinch",
                     "halloween",
                     "halloween2024_premium",
+                    "halloween_26_premium",
                     "handyman",
                     "hansel",
                     "hazardeer_premium",
@@ -7766,6 +7789,7 @@ return [[
                     "nitrox_premium",
                     "officer",
                     "oldbard",
+                    "oldbill_premium",
                     "oldie",
                     "overspill",
                     "patchwork",
@@ -9912,6 +9936,10 @@ return [[
                     },
                     {
                         "vehicleId": "atv",
+                        "paintId": "atv_halloween25_mythic"
+                    },
+                    {
+                        "vehicleId": "atv",
                         "paintId": "VIP"
                     },
                     {
@@ -9973,6 +10001,10 @@ return [[
                     {
                         "vehicleId": "super_offroad",
                         "paintId": "super_offroad_tactical_green_premium"
+                    },
+                    {
+                        "vehicleId": "super_offroad",
+                        "paintId": "super_offroad_halloween2026_premium"
                     },
                     {
                         "vehicleId": "super_offroad",
@@ -11928,6 +11960,11 @@ return [[
                     },
                     {
                         "partId": "wheel",
+                        "variantId": "atv_tire-oldbill_premium",
+                        "vehicleId": "atv"
+                    },
+                    {
+                        "partId": "wheel",
                         "variantId": "atv_tire-VIP",
                         "vehicleId": "atv"
                     },
@@ -11969,6 +12006,11 @@ return [[
                     {
                         "partId": "wheel",
                         "variantId": "super_offroad_tire-tactical_green_premium",
+                        "vehicleId": "super_offroad"
+                    },
+                    {
+                        "partId": "wheel",
+                        "variantId": "super_offroad_halloween2026_premium",
                         "vehicleId": "super_offroad"
                     },
                     {
